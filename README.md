@@ -61,6 +61,11 @@ An intelligent, full-stack adaptive learning platform that teaches students from
 7. **Multi-Dimensional Mastery Check & Progress Analytics**
    - Rigorous evaluation across accuracy, difficulty weighting, hint independence, and concept coverage.
    - Generates Mastery Summary certificate, strengths, mastered concepts (✓), targeted review recommendations (⚠), and next topic progression.
+---
+## 📸 Application Preview
+
+### Login & Authentication
+
 
 ---
 ## 🛠️ Technology Stack
