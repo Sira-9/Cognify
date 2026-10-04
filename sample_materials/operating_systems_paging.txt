@@ -1,0 +1,17 @@
+
+# Operating Systems: Paging and Virtual Memory
+## Concept 1: Address Translation and Page Tables
+Virtual memory decouples logical address space from physical RAM.
+Each process operates within an isolated 32-bit or 64-bit address space.
+The Memory Management Unit (MMU) performs hardware translation between Virtual Page Numbers (VPN) and Physical Frame Numbers (PFN).
+Key constraint: The offset inside the page is always identical between virtual and physical addresses because page size equals frame size.
+
+## Concept 2: The Translation Lookaside Buffer (TLB)
+A hardware cache located on the CPU storing recent address translations.
+When the CPU references a memory location, the MMU checks the TLB first.
+TLB hit takes under 1 nanosecond; a TLB miss forces a multi-level page table walk in RAM.
+
+## Concept 3: Page Faults and Eviction Policies
+A page fault occurs when a requested page is not in physical RAM (Present Bit is 0).
+The OS traps to the kernel handler, retrieves the missing page from disk swap, updates the frame table, and restarts the instruction.
+When RAM is full, replacement algorithms such as LRU (Least Recently Used) select a victim frame.
