@@ -63,6 +63,15 @@ An intelligent, full-stack adaptive learning platform that teaches students from
    - Generates Mastery Summary certificate, strengths, mastered concepts (✓), targeted review recommendations (⚠), and next topic progression.
 
 ---
+## 🛠️ Technology Stack
+
+* **Backend:** Python, FastAPI
+* **Frontend:** HTML, CSS, JavaScript
+* **Database:** SQLite
+* **Data Validation:** Pydantic
+* **Machine Learning:** Scikit-learn
+* **AI Integration:** Gemini API and Offline Heuristic Engine
+---
 
 ## 🚀 Quickstart Guide
 
